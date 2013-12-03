@@ -2,12 +2,16 @@ package evaluacion;
 
 public class Bisiesto {
 	public String esBisiesto(int anio){
-		if (anio % 4 == 0 && anio % 100 != 0){
+		if (divisibleEntreCuatroyNoPorCien(anio)){
 			return "es divisible";
 		}
 		else{
-			return String.valueOf(anio);
+			return "no es divisible";
 		}
+	}
+
+	private boolean divisibleEntreCuatroyNoPorCien(int anio) {
+		return anio % 4 == 0 && anio % 100 != 0;
 	}
 	
 	public String mostrarAnio(int anio){

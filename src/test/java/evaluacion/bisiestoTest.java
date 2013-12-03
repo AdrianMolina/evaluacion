@@ -26,7 +26,7 @@ public class bisiestoTest {
 	
 	@Test
 	public void anioDivisibleEntreCuatroyCien(){
-		assertEquals("1900", b.esBisiesto(1900));
+		assertEquals("no es divisible", b.esBisiesto(1900));
 	}
 
 }
