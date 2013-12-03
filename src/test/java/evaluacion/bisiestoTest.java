@@ -21,17 +21,17 @@ public class bisiestoTest {
 	
 	@Test
 	public void anioDivisibleEntreCuatro(){
-		assertEquals("es divisible", b.esBisiesto(1996));
+		assertEquals("es bisiesto", b.esBisiesto(1996));
 	}
 	
 	@Test
 	public void anioDivisibleEntreCuatroyCien(){
-		assertEquals("no es divisible", b.esBisiesto(1900));
+		assertEquals("no es bisiesto", b.esBisiesto(1900));
 	}
 	
 	@Test
 	public void anioDivisibleCuatrocientosyCien(){
-		assertEquals("es divisible", b.esBisiesto(2000));
+		assertEquals("es bisiesto", b.esBisiesto(2000));
 	}
 
 }
