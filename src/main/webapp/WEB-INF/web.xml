@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>bisiestoServlet</servlet-name>
+		<servlet-class>evaluacion.bisiestoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bisiestoServlet</servlet-name>
+		<url-pattern>/bisiestoServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
