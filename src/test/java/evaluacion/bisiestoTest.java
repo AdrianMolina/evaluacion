@@ -28,5 +28,10 @@ public class bisiestoTest {
 	public void anioDivisibleEntreCuatroyCien(){
 		assertEquals("no es divisible", b.esBisiesto(1900));
 	}
+	
+	@Test
+	public void anioDivisibleCuatrocientosyCien(){
+		assertEquals("es divisible", b.esBisiesto(2000));
+	}
 
 }

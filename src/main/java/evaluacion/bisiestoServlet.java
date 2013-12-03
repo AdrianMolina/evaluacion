@@ -15,5 +15,6 @@ public class bisiestoServlet extends HttpServlet {
 		Bisiesto b = new Bisiesto();
 		String anio = request.getParameter("anio");
 		response.getWriter().println(b.mostrarAnio(Integer.parseInt(anio)));
+		response.getWriter().println(b.esBisiesto(Integer.parseInt(anio)));
 	}
 }
