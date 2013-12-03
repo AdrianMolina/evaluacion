@@ -15,13 +15,18 @@ public class bisiestoTest {
 	}
 
 	@Test
-	public void retornarAnio() {
-		assertEquals("1995", b.esBisiesto(1995));
+	public void retornarAnio(){
+		assertEquals("1995", b.mostrarAnio(1995));
 	}
 	
 	@Test
-	public void anioDivisibleEntreCuatro() {
+	public void anioDivisibleEntreCuatro(){
 		assertEquals("es divisible", b.esBisiesto(1996));
+	}
+	
+	@Test
+	public void anioDivisibleEntreCuatroyCien(){
+		assertEquals("1900", b.esBisiesto(1900));
 	}
 
 }
